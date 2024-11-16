@@ -60,7 +60,7 @@
         icon="i-heroicons-bars-3"
         color="gray"
         variant="ghost"
-        class="md:hidden"
+        class="md:hidden px-4"
         @click="isOpen = true"
       />
 
