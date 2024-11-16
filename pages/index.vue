@@ -1,11 +1,11 @@
 <template>
   <div>
-    <div class="h-auto py-12 flex flex-col items-center justify-center gap-3">
-      <h1 class="text-5xl font-black w-full max-w-3xl text-center leading-snug">
+    <div class="h-auto py-8 md:py-12 flex flex-col items-center justify-center gap-3 px-4 md:px-6">
+      <h1 class="text-3xl md:text-4xl lg:text-5xl font-black w-full max-w-3xl text-center leading-tight md:leading-snug">
         It's time for Open Source Task Collaboration Software for your Async Team
       </h1>
 
-      <p class="text-xl text-center w-full max-w-2xl leading-snug">
+      <p class="text-lg md:text-xl text-center w-full max-w-2xl leading-snug">
         Bugmuggle is open source, serverless task management and communication software designed to simplify collaboration for your async team.
       </p>
 
@@ -19,16 +19,16 @@
       />
     </div>
 
-    <div class="w-full max-w-3xl mx-auto space-y-4 p-6">
-      <div class="mb-6">
-        <h2 class="text-2xl font-bold">Roadmap</h2>
-        <p class="text-lg text-gray-600">
+    <div class="w-full max-w-3xl mx-auto space-y-4 p-4 md:p-6">
+      <div class="mb-4 md:mb-6">
+        <h2 class="text-xl md:text-2xl font-bold">Roadmap</h2>
+        <p class="text-base md:text-lg text-gray-600">
           Our roadmap focuses on building features that simplify project management,
           enhance collaboration, and give developers full control through self-hosting.
         </p>
       </div>
       
-      <div class="space-y-3">
+      <div class="space-y-2 md:space-y-3">
         <div class="flex items-start gap-3" v-for="(item, idx) in roadmap" :key="'roadmap-list-item-' + idx">
           <UCheckbox v-model="item.completed" :ui="{ ring: 'ring-1 ring-black' }" disabled />
           <div>

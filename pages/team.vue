@@ -1,15 +1,15 @@
 <template>
-  <div class="w-full max-w-screen-lg mx-auto">
-    <div class="h-auto py-12 flex flex-col items-center justify-center gap-3">
-      <h1 class="text-5xl font-black text-center leading-snug">
+  <div class="w-full max-w-screen-lg mx-auto px-4 sm:px-6">
+    <div class="h-auto py-8 sm:py-12 flex flex-col items-center justify-center gap-3">
+      <h1 class="text-3xl sm:text-4xl md:text-5xl font-black text-center leading-snug">
         The Core Team
       </h1>
-      <p class="text-xl text-center w-full max-w-2xl leading-snug">
+      <p class="text-lg sm:text-xl text-center w-full max-w-2xl leading-snug">
         We are only journey to leberate the world of async collaboration.
       </p>
     </div>
 
-    <div class="flex items-center justify-center gap-12 flex-wrap">
+    <div class="flex items-center justify-center gap-6 sm:gap-8 md:gap-12 flex-wrap">
       <div class="w-auto h-auto space-y-3">
         <div
           class="w-32 h-32 rounded-full bg-gray-200 border-4 border-black block mx-auto bg-cover bg-center bg-no-repeat"
