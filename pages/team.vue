@@ -58,3 +58,12 @@
     </div>
   </div>
 </template>
+
+<script setup>
+useHead({
+  title: 'Bugmuggle - The Core Team',
+  meta: [
+    { name: 'description', content: 'Bugmuggle is open source, serverless task management and communication software designed to simplify collaboration for your async team.' }
+  ]
+})
+</script>
