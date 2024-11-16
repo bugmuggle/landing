@@ -1,0 +1,6 @@
+html, body {
+  font-family: Plus Jakarta Sans, sans-serif;
+  background-image: linear-gradient(#f6f6f6 2px, transparent 2px), linear-gradient(to right, #f6f6f6 2px, transparent 2px);
+  background-size: 12px 12px;
+  background-color: #ffffff;
+}
