@@ -10,6 +10,14 @@
       <div class="inline-flex items-center gap-4">
 
         <UButton
+          label="Manifesto"
+          size="xl"
+          color="black"
+          variant="ghost"
+          to="/manifesto"
+        />
+
+        <UButton
           label="Team"
           size="xl"
           color="black"

@@ -42,6 +42,13 @@
 </template>
 
 <script setup>
+useHead({
+  title: 'Bugmuggle - Open Source Task Collaboration Software',
+  meta: [
+    { name: 'description', content: 'Bugmuggle is open source, serverless task management and communication software designed to simplify collaboration for your async team.' }
+  ]
+})
+
 const roadmap = ref([
   {
     title: 'Project Level Membership and Role Based Access Control',
